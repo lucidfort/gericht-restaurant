@@ -1,0 +1,17 @@
+.app__header {
+  background-color: var(--color-black);
+  width: 100%;
+  overflow: hidden;
+}
+
+.app__header-h1 {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  @apply text-6xl leading-[90px] md:text-8xl md:leading-[117px];
+}
+
+.app__header-img img {
+  width: 80%;
+}
